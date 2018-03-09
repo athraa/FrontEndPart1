@@ -17,7 +17,7 @@ foreach ($_POST[os] as $value) {
 
     mysqli_query($con,"insert into rest_info(os_id,user_id) values($value,$id)");
 }
-header ("location:form.php");
+header ("location:index1.html");
 
 
 ?>
